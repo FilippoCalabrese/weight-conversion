@@ -1,14 +1,14 @@
-# :package_description
+# Weight conversion in php
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
-[![Tests](https://img.shields.io/github/actions/workflow/status/:vendor_slug/:package_slug/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/:vendor_slug/:package_slug/actions/workflows/run-tests.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/:vendor_slug/:package_slug.svg?style=flat-square)](https://packagist.org/packages/:vendor_slug/:package_slug)
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/filippocalabrese/weight-conversion.svg?style=flat-square)](https://packagist.org/packages/filippocalabrese/weight-conversion)
+[![Tests](https://img.shields.io/github/actions/workflow/status/filippocalabrese/weight-conversion/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/filippocalabrese/weight-conversion/actions/workflows/run-tests.yml)
+[![Total Downloads](https://img.shields.io/packagist/dt/filippocalabrese/weight-conversion.svg?style=flat-square)](https://packagist.org/packages/filippocalabrese/weight-conversion)
 
 This is where your description should go. Try and limit it to a paragraph or two. Consider adding a small example.
 
 ## Support us
 
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/:package_name.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/:package_name)
+[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/weight-conversion.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/weight-conversion)
 
 We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
 
@@ -19,14 +19,14 @@ We highly appreciate you sending us a postcard from your hometown, mentioning wh
 You can install the package via composer:
 
 ```bash
-composer require :vendor_slug/:package_slug
+composer require filippocalabrese/weight-conversion
 ```
 
 ## Usage
 
 ```php
-$skeleton = new VendorName\Skeleton();
-echo $skeleton->echoPhrase('Hello, VendorName!');
+$skeleton = new FilippoCalabrese\WeightConversion();
+echo $skeleton->echoPhrase('Hello, FilippoCalabrese!');
 ```
 
 ## Testing
@@ -49,7 +49,7 @@ Please review [our security policy](../../security/policy) on how to report secu
 
 ## Credits
 
-- [:author_name](https://github.com/:author_username)
+- [Filippo Calabrese](https://github.com/FilippoCalabrese)
 - [All Contributors](../../contributors)
 
 ## License

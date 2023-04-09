@@ -4,6 +4,6 @@ it('can test', function () {
     expect(true)->toBeTrue();
 });
 
-it('works', function(){
+it('works', function () {
     expect('ciao')->toBeString();
 });
